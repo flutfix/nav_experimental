@@ -26,7 +26,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
   Widget build(BuildContext context) {
     return Align(
       alignment: Alignment.centerRight,
-      child: MediaQuery.of(context).size.width >= 500
+      child: MediaQuery.of(context).size.width >= 900
           ? WebDetails(
               id: widget.id,
               isChatOpened: widget.isChatOpened,
